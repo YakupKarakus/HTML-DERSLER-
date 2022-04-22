@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,800&display=swap');
-/* Base Styling*/
+Base Styling
 
 *{
     margin: 0;
@@ -10,8 +10,9 @@
 }
 body{
     font-family: 'Poppins',sans-serif;
-    background: url(images/bg.jpg);
+    background: url(images/rachel-cook-mOcdke2ZQoE-unsplash.jpg);
     background-size: cover; 
+    height: auto;
 }
 ul{
     list-style-type: none;
@@ -26,16 +27,19 @@ h1{
     color: #fffffc;
     margin: 16px 0;
     font-weight: 800;
+    margin-left: 25px;
 
 }
 h3{
     margin: 8px 0;
     font-weight: 800;
+    margin-left: 25px;
 }
 p{
     margin: 16px 0;
     line-height: 1.75;
     font-weight: 400;
+    margin-left: 25px;
 }
 img{
     max-width: 100%;
@@ -44,8 +48,12 @@ img{
 }
 /* Navigation */
 header{
+    
     line-height: 100px;
-    height: 200px;
+    height: 250px;
+}
+small{
+    margin-left: 25px;
 }
 nav{
     display: flex;
@@ -58,16 +66,28 @@ nav{
 
 nav ul li{
     display: inline;
-    padding: 0 16px;
+    /* padding: 0 16px; */
+    margin-left: 25px;
 
 
 }
 nav ul li a{
     color: #202020;
     font-size: 25px;
+    font-weight: bold;
+    
     
 
 }
+main img{
+    text-align: center;
+    margin-left: 25px;
+    width: 90%;
+}
+/* main h1{
+    margin-left: 25px;
+} */
+
 .mobile{
     display: none;
 }
@@ -120,7 +140,7 @@ nav ul li a{
 }
 header{
     /* grid-area: Header; */
-    background-color: #f9f9f9;
+    background-color: #F4E9DF;
     grid-column-start: span 3;
     
 }
